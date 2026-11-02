@@ -1,0 +1,5 @@
+# Jekyll 3.10 parses literal C++ {{...}} in this repository-only specification
+# as Liquid and does not support render_with_liquid: false. Keep the original
+# engineering prompt in Git; do not compile it into the public Pages site.
+exclude:
+  - CODEX_MASTER_PROMPT.md
